@@ -2,7 +2,7 @@
 
 ### Beyond What You See.
 
-VELUNE is a cinematic shader project for Minecraft: Java Edition, built around atmospheric lighting, reflective water, detailed shadows, and a distinctive cosmic experience.
+VELUNE is a cinematic shader pack for **Minecraft: Java Edition 1.21 and above (1.21+)**, built around atmospheric lighting, reflective water, detailed shadows, and a distinctive cosmic experience.
 
 <p align="center">
   <strong>VELUNE SHADERS · VERSION 1.0</strong><br>
@@ -37,13 +37,13 @@ The ZIP is the original VELUNE v1.0 shader archive. Keep it compressed when plac
 
 ## Installation
 
-1. Install Minecraft: Java Edition.
+1. Install **Minecraft: Java Edition 1.21 or newer (1.21+)**.
 2. Install a compatible version of [Iris Shaders](https://irisshaders.dev/) and [Sodium](https://modrinth.com/mod/sodium).
 3. Download [VeluneShaders_V.1.zip](./VeluneShaders_V.1.zip).
 4. Move the ZIP file into your Minecraft `.minecraft/shaderpacks` folder. Do not extract it.
 5. Open **Options → Video Settings → Shader Packs**, select VELUNE, and apply it.
 
-Compatibility depends on the Minecraft, Iris, Sodium, GPU, and driver versions. If the shader does not load, check the versions and the game log.
+**Supported Minecraft versions:** Java Edition **1.21+**. Use an Iris Shaders release that supports your Minecraft version, along with a compatible Sodium version. Actual compatibility can vary by Minecraft release, Iris/Sodium versions, GPU, and graphics drivers. If the shader does not load, check that your mod versions match your Minecraft installation and review the game log.
 
 ## Source code
 
@@ -52,8 +52,8 @@ The repository includes the VELUNE shader archive containing GLSL programs, dime
 ## Project status
 
 - **Version:** 1.0
-- **Edition:** Minecraft: Java Edition
-- **Shader platform:** Iris
+- **Supported game versions:** Minecraft: Java Edition 1.21+
+- **Shader platform:** Iris Shaders (with compatible Sodium)
 - **Distribution:** GitHub; Modrinth submission is under review.
 
 ## Development and credits
