@@ -2,58 +2,59 @@
 
 ### Beyond What You See.
 
-VELUNE is a cinematic Minecraft: Java Edition shader project focused on atmospheric environments, expressive lighting, reflective water, and a distinctive cosmic experience.
+VELUNE is a cinematic shader project for Minecraft: Java Edition, built around atmospheric lighting, reflective water, detailed shadows, and a distinctive cosmic experience.
 
-> **Project status:** Version 1.0  
-> **Distribution:** GitHub and Modrinth (Modrinth submission currently under review)
+<p align="center">
+  <strong>VELUNE SHADERS · VERSION 1.0</strong><br>
+  <em>Explore beyond the ordinary.</em>
+</p>
 
-## Features
+## Project highlights
 
-- **Cinematic lighting and shadows** — atmospheric illumination and depth.
-- **Volumetric lighting** — visible light shafts and god rays.
-- **Reflective water** — enhanced water appearance and reflections.
-- **Atmospheric environments** — visual enhancements across Minecraft worlds, including the Nether.
-- **Gargantua** — a custom cosmic black-hole experience.
-- **Procedural planetary visuals** — additional cosmic details.
+- **Gargantua** — a procedural black-hole scene in the End, with a dark shadow, photon ring, and gravitationally lensed accretion disk.
+- **Cosmic worlds** — a ringed gas giant and a procedural planetary system in the End.
+- **Lighting and shadows** — soft coloured shadows, volumetric god rays, and atmospheric illumination.
+- **Water** — screen-space reflections, refraction, and absorption.
+- **Atmosphere** — procedural clouds, sunsets, night-sky details, shooting stars, and moon phases.
+- **Additional effects** — rain puddles, fireflies near firefly bushes, coloured light bleed, bloom, ACES tonemapping, and FXAA.
+- **Quality presets** — Low, Medium, High, and Cinematic.
 
-## Screenshots
+## Download
 
-In-game screenshots will be added here as the VELUNE showcase is prepared.
+**Shader archive:** [VeluneShaders_V.1.zip](./VeluneShaders_V.1.zip)
+
+The ZIP is the original VELUNE v1.0 shader archive. Keep it compressed when placing it in the shaderpacks folder.
 
 ## Installation
 
-1. Install a compatible Minecraft: Java Edition setup with [Iris Shaders](https://irisshaders.dev/).
-2. Download the VELUNE shader ZIP from the [GitHub Releases](https://github.com/futureunboxedtech-ctrl/VeluneShaders/releases) page.
-3. Keep the shader ZIP compressed; do not extract it unless the release instructions specifically tell you to.
-4. Move the ZIP into your Minecraft `.minecraft/shaderpacks` folder.
-5. Launch Minecraft, open **Options → Video Settings → Shader Packs**, and select **VELUNE**.
+1. Install Minecraft: Java Edition.
+2. Install a compatible version of [Iris Shaders](https://irisshaders.dev/) and [Sodium](https://modrinth.com/mod/sodium).
+3. Download [VeluneShaders_V.1.zip](./VeluneShaders_V.1.zip).
+4. Move the ZIP file into your Minecraft `.minecraft/shaderpacks` folder. Do not extract it.
+5. Open **Options → Video Settings → Shader Packs**, select VELUNE, and apply it.
 
-If VELUNE does not appear, check that the ZIP is in the correct `shaderpacks` folder and that the downloaded file is complete.
+Compatibility depends on the Minecraft, Iris, Sodium, GPU, and driver versions. If the shader does not load, check the versions and the game log.
 
-## Compatibility
+## Source code
 
-- Minecraft: Java Edition
-- Iris Shaders
-- Sodium
+The repository includes the VELUNE shader archive containing GLSL programs, dimension-specific shader files, shared shader logic, and configuration files. The source is provided for inspection and reference under the terms in [LICENSE](./LICENSE).
 
-Compatibility can vary by Minecraft version, Iris version, hardware, and graphics settings. Check the release notes for version-specific information.
+## Project status
 
-## Downloads
+- **Version:** 1.0
+- **Edition:** Minecraft: Java Edition
+- **Shader platform:** Iris
+- **Distribution:** GitHub; Modrinth submission is under review.
 
-- [GitHub Releases](https://github.com/futureunboxedtech-ctrl/VeluneShaders/releases)
-- [VELUNE on Modrinth](https://modrinth.com/shader/veluneshaders) — currently awaiting review.
+## Development and credits
 
-## Development and Credits
+VELUNE was developed with substantial assistance from generative AI.
 
-VELUNE was developed with substantial assistance from generative AI. This repository shares the project's source code for transparency and development reference.
+**Project credit:** NotPrathxm1
 
-**Credits:** NotPrathxm1
+## License and permissions
 
-## License and Permissions
-
-**All Rights Reserved.** The source code and project materials are publicly viewable, but public visibility does not grant permission to copy, modify, redistribute, republish, or use them in other projects.
-
-Permission must be obtained in writing from the copyright holder before reusing or distributing any part of VELUNE. See [LICENSE](LICENSE) for the full notice.
+**All rights reserved.** Public access to this repository does not grant permission to copy, modify, redistribute, republish, or use the source code, branding, or project assets in another project. Written permission from the copyright holder is required. Read [LICENSE](./LICENSE) for the complete terms.
 
 ---
 
