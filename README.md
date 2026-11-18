@@ -9,6 +9,16 @@ VELUNE is a cinematic shader project for Minecraft: Java Edition, built around a
   <em>Explore beyond the ordinary.</em>
 </p>
 
+## Screenshots
+
+### Water and reflections
+
+![VELUNE water reflections](Screenshots/water-reflections.jpg)
+
+### Gargantua
+
+![VELUNE Gargantua black hole](Screenshots/gargantua.jpg)
+
 ## Project highlights
 
 - **Gargantua** — a procedural black-hole scene in the End, with a dark shadow, photon ring, and gravitationally lensed accretion disk.
